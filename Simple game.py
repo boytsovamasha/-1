@@ -10,7 +10,7 @@ def hodmashiny():
         taken=random.randint(1,3)
     else:
         taken = random.randint(1, rocks)
-    print(f"Машина взяла %d камней." %taken)
+    print(f"Машина взяла {taken} камней.")
     print("Осталось %d камней." %(rocks-taken))
     return taken
 def hodcheloveka():
